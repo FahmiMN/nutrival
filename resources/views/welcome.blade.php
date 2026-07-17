@@ -27,7 +27,7 @@
         </h1>
         <p class="mt-4 text-stone-500 max-w-xl mx-auto">
             Nutrival membantumu mencatat makanan harian, merencanakan meal prep mingguan,
-            dan memantau kalori, protein, karbo, dan lemak — lengkap dengan data makanan Indonesia.
+            dan memantau kalori, protein, karbo, dan lemak lengkap dengan data makanan Indonesia.
         </p>
         <div class="mt-8 flex justify-center gap-3">
             <a href="{{ route('register') }}" class="px-6 py-3.5 rounded-xl bg-emerald-600 text-white font-bold shadow-lg shadow-emerald-200 hover:bg-emerald-700">Mulai Sekarang →</a>
@@ -37,7 +37,7 @@
 
     <section class="grid md:grid-cols-3 gap-4 pb-20">
         @foreach([
-            ['📔', 'Food Diary Harian', 'Catat apa yang kamu makan — kalori & macro terhitung otomatis dari database makanan Indonesia & internasional.'],
+            ['📔', 'Food Diary Harian', 'Catat apa yang kamu makan kalori & macro terhitung otomatis dari database makanan Indonesia & internasional.'],
             ['🗓️', 'Meal Prep Mingguan', 'Rencanakan menu 7 hari ke depan. Tandai selesai, otomatis tercatat ke diary.'],
             ['📈', 'Statistik & Target', 'Grafik mingguan, streak, tren berat badan, plus kalkulator BMR/TDEE untuk rekomendasi target kalorimu.'],
         ] as [$icon, $title, $desc])
@@ -51,7 +51,7 @@
 </main>
 
 <footer class="border-t border-stone-200 py-6 text-center text-xs text-stone-400">
-    Nutrival — Proyek UAS Pemrograman Web 2 • Data gizi mengacu pada TKPI Kemenkes RI & USDA FoodData Central
+    Nutrival • Data gizi mengacu pada TKPI Kemenkes RI & USDA FoodData Central
 </footer>
 </body>
 </html>
